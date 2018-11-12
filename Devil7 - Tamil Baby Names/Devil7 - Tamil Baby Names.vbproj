@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B7E629CD-59AD-4F98-9CBA-E41B65512D5E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Devil7___Tamil_Baby_Names.My.MyApplication</StartupObject>
-    <RootNamespace>Devil7___Tamil_Baby_Names</RootNamespace>
+    <StartupObject>Devil7.Astro.Names.My.MyApplication</StartupObject>
+    <RootNamespace>Devil7.Astro.Names</RootNamespace>
     <AssemblyName>Devil7 - Tamil Baby Names</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
@@ -45,6 +45,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.Data.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -122,6 +125,9 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <PropertyGroup>

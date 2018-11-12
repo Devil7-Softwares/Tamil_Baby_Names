@@ -9,8 +9,8 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("Devil7 - Tamil Baby Names")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
+<Assembly: AssemblyDescription("A simple application that contains 10000+ baby names with tamil meanings for various religions")>
+<Assembly: AssemblyCompany("Devil7 Softwares")>
 <Assembly: AssemblyProduct("Devil7 - Tamil Baby Names")>
 <Assembly: AssemblyCopyright("Copyright ©  2018")>
 <Assembly: AssemblyTrademark("")>
