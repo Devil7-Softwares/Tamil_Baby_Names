@@ -18,50 +18,20 @@
 '     Dineshkumar T                                                        '
 '=========================================================================='
 
-Imports Devil7.Astro.Names.Objects
+Namespace Objects
+    Public Class RashiNakshatra
 
-Public Class DatabaseIO
-
-#Region "Variables"
-    Private Shared DatabasePath As String = ""
+#Region "Properties"
+        Property Rashi As Rashi
+        Property Nakshatra As Nakshatra
 #End Region
 
-#Region "Database"
-    Public Shared Sub CreateDB()
-        DatabasePath = IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "data_" & (New Random).Next(1000, 9999) & ".db")
-        My.Computer.FileSystem.WriteAllBytes(DatabasePath, My.Resources.data, False)
-    End Sub
-
-    Public Shared Sub Clean()
-        If DatabasePath <> "" AndAlso My.Computer.FileSystem.FileExists(DatabasePath) Then
-            My.Computer.FileSystem.DeleteFile(DatabasePath)
-        End If
-    End Sub
+#Region "Constructors"
+        Sub New(ByVal Rashi As Rashi, ByVal Nakshatra As Nakshatra)
+            Me.Rashi = Rashi
+            Me.Nakshatra = Nakshatra
+        End Sub
 #End Region
 
-#Region "Cities"
-    Private Shared Cities As List(Of City)
-
-    Public Shared Function GetCities() As List(Of City)
-        If DatabasePath = "" OrElse My.Computer.FileSystem.FileExists(DatabasePath = False) Then CreateDB()
-
-        ' TO BE IMPLEMENTED
-
-        Return Cities
-    End Function
-#End Region
-
-#Region "Stars"
-    Private Shared Nakshatras As List(Of Nakshatra)
-
-    Public Shared Function GetNakshatras() As List(Of Nakshatra)
-        If DatabasePath = "" OrElse My.Computer.FileSystem.FileExists(DatabasePath = False) Then CreateDB()
-
-        ' TO BE IMPLEMENTED
-
-        Return Nakshatras
-
-    End Function
-#End Region
-
-End Class
+    End Class
+End Namespace

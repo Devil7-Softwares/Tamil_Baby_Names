@@ -81,8 +81,17 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Astro.vb" />
     <Compile Include="Classes\DatabaseIO.vb" />
+    <Compile Include="Classes\Objects\Rashi.vb" />
+    <Compile Include="Classes\Objects\RashiNakshatra.vb" />
     <Compile Include="Classes\XtraFormTemp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\frm_CalcAstro.Designer.vb">
+      <DependentUpon>frm_CalcAstro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\frm_CalcAstro.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_Main.Designer.vb">
@@ -108,10 +117,13 @@
     </Compile>
     <Compile Include="Classes\Objects\City.vb" />
     <Compile Include="Classes\Objects\Name.vb" />
-    <Compile Include="Classes\Objects\Star.vb" />
+    <Compile Include="Classes\Objects\Nakshatra.vb" />
     <Compile Include="Classes\Objects\TwinName.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Dialogs\frm_CalcAstro.resx">
+      <DependentUpon>frm_CalcAstro.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_Main.resx">
       <DependentUpon>frm_Main.vb</DependentUpon>
     </EmbeddedResource>

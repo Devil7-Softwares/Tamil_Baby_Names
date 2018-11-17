@@ -23,10 +23,19 @@ Public Class frm_Main
 #Region "Form Events"
     Private Sub frm_Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         DatabaseIO.CreateDB()
+        cmb_Nakshatra.Properties.Items.AddRange(DatabaseIO.GetNakshatras.ToArray)
+        cmb_Rashi.Properties.Items.AddRange(Objects.Rashi.GetAllRashis)
     End Sub
 
     Private Sub frm_Main_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
         DatabaseIO.Clean()
+    End Sub
+
+    Private Sub btn_CalcStarSign_Click(sender As Object, e As EventArgs) Handles btn_CalcStarSign.Click
+        If frm_CalcAstro.ShowDialog = DialogResult.OK Then
+            cmb_Nakshatra.SelectedItem = frm_CalcAstro.RashiNakshatra.Nakshatra
+            cmb_Rashi.SelectedItem = frm_CalcAstro.RashiNakshatra.Rashi
+        End If
     End Sub
 #End Region
 

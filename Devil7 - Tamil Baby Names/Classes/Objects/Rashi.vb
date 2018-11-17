@@ -19,26 +19,37 @@
 '=========================================================================='
 
 Namespace Objects
-    Public Class Star
+    Public Class Rashi
 
-#Region "Fields/Properties"
-        ReadOnly Property ID As Integer
-        ReadOnly Property Name_TAM As String
-        ReadOnly Property Name_ENG As String
-        ReadOnly Property Letters_TAM As String
-        ReadOnly Property Letters_ENG As String
-        ReadOnly Property Meaning As String
+#Region "Properties"
+        ReadOnly Property Name_TA As String
+        ReadOnly Property Name_EN As String
+#End Region
+
+#Region "Constructors"
+        Sub New(ByVal Name_TA As String, ByVal Name_EN As String)
+            Me.Name_TA = Name_TA
+            Me.Name_EN = Name_EN
+        End Sub
 #End Region
 
 #Region "Subs"
-        Sub New(ByVal ID As Integer, ByVal Name_TAM As String, ByVal Name_ENG As String, ByVal Letters_TAM As String, ByVal Letters_ENG As String, ByVal Meaning As String)
-            Me.ID = ID
-            Me.Name_TAM = Name_TAM
-            Me.Name_ENG = Name_ENG
-            Me.Letters_TAM = Letters_TAM
-            Me.Letters_ENG = Letters_ENG
-            Me.Meaning = Meaning
-        End Sub
+        Public Shared Function GetAllRashis() As List(Of Rashi)
+            Return New List(Of Rashi)({
+                                      New Rashi("Aries", "மேஷம்"),
+                                      New Rashi("Taurus", "ரிஷபம்"),
+                                      New Rashi("Gemini", "மிதுனம்"),
+                                      New Rashi("Cancer", "கடகம்"),
+                                      New Rashi("Leo", "சிம்மம்"),
+                                      New Rashi("Virgo", "கன்னி"),
+                                      New Rashi("Libra", "துலாம்"),
+                                      New Rashi("Scorpio", "விருச்சிகம்"),
+                                      New Rashi("Sagittarius", "தனுசு"),
+                                      New Rashi("Capricorn", "மகரம்"),
+                                      New Rashi("Aquarius", "கும்பம்"),
+                                      New Rashi("Pisces", "மீனம்")
+                                      })
+        End Function
 #End Region
 
     End Class

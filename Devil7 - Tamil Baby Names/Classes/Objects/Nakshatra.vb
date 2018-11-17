@@ -18,50 +18,28 @@
 '     Dineshkumar T                                                        '
 '=========================================================================='
 
-Imports Devil7.Astro.Names.Objects
+Namespace Objects
+    Public Class Nakshatra
 
-Public Class DatabaseIO
-
-#Region "Variables"
-    Private Shared DatabasePath As String = ""
+#Region "Fields/Properties"
+        ReadOnly Property ID As Integer
+        ReadOnly Property Name_TAM As String
+        ReadOnly Property Name_ENG As String
+        ReadOnly Property Letters_TAM As String
+        ReadOnly Property Letters_ENG As String
+        ReadOnly Property Meaning As String
 #End Region
 
-#Region "Database"
-    Public Shared Sub CreateDB()
-        DatabasePath = IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "data_" & (New Random).Next(1000, 9999) & ".db")
-        My.Computer.FileSystem.WriteAllBytes(DatabasePath, My.Resources.data, False)
-    End Sub
-
-    Public Shared Sub Clean()
-        If DatabasePath <> "" AndAlso My.Computer.FileSystem.FileExists(DatabasePath) Then
-            My.Computer.FileSystem.DeleteFile(DatabasePath)
-        End If
-    End Sub
+#Region "Subs"
+        Sub New(ByVal ID As Integer, ByVal Name_TAM As String, ByVal Name_ENG As String, ByVal Letters_TAM As String, ByVal Letters_ENG As String, ByVal Meaning As String)
+            Me.ID = ID
+            Me.Name_TAM = Name_TAM
+            Me.Name_ENG = Name_ENG
+            Me.Letters_TAM = Letters_TAM
+            Me.Letters_ENG = Letters_ENG
+            Me.Meaning = Meaning
+        End Sub
 #End Region
 
-#Region "Cities"
-    Private Shared Cities As List(Of City)
-
-    Public Shared Function GetCities() As List(Of City)
-        If DatabasePath = "" OrElse My.Computer.FileSystem.FileExists(DatabasePath = False) Then CreateDB()
-
-        ' TO BE IMPLEMENTED
-
-        Return Cities
-    End Function
-#End Region
-
-#Region "Stars"
-    Private Shared Nakshatras As List(Of Nakshatra)
-
-    Public Shared Function GetNakshatras() As List(Of Nakshatra)
-        If DatabasePath = "" OrElse My.Computer.FileSystem.FileExists(DatabasePath = False) Then CreateDB()
-
-        ' TO BE IMPLEMENTED
-
-        Return Nakshatras
-
-    End Function
-#End Region
-
-End Class
+    End Class
+End Namespace

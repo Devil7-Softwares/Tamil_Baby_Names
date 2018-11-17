@@ -18,50 +18,32 @@
 '     Dineshkumar T                                                        '
 '=========================================================================='
 
-Imports Devil7.Astro.Names.Objects
+Public Class frm_CalcAstro
 
-Public Class DatabaseIO
-
-#Region "Variables"
-    Private Shared DatabasePath As String = ""
+#Region "Properties"
+    Property RashiNakshatra As Objects.RashiNakshatra
 #End Region
 
-#Region "Database"
-    Public Shared Sub CreateDB()
-        DatabasePath = IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "data_" & (New Random).Next(1000, 9999) & ".db")
-        My.Computer.FileSystem.WriteAllBytes(DatabasePath, My.Resources.data, False)
-    End Sub
-
-    Public Shared Sub Clean()
-        If DatabasePath <> "" AndAlso My.Computer.FileSystem.FileExists(DatabasePath) Then
-            My.Computer.FileSystem.DeleteFile(DatabasePath)
-        End If
+#Region "Form Events"
+    Private Sub frm_CalcAstro_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        txt_BirthCity.Properties.Items.AddRange(DatabaseIO.GetCities.ToArray)
     End Sub
 #End Region
 
-#Region "Cities"
-    Private Shared Cities As List(Of City)
+#Region "Control Events"
+    Private Sub txt_Date_EditValueChanged(sender As Object, e As EventArgs) Handles txt_Date.EditValueChanged
+        txt_Time.EditValue = txt_Date.EditValue
+    End Sub
 
-    Public Shared Function GetCities() As List(Of City)
-        If DatabasePath = "" OrElse My.Computer.FileSystem.FileExists(DatabasePath = False) Then CreateDB()
+    Private Sub btn_OK_Click(sender As Object, e As EventArgs) Handles btn_OK.Click
+        Try
+            Me.RashiNakshatra = Astro.GetRashiNakshatra(txt_Time.EditValue, txt_BirthCity.SelectedItem, switch_DaylightSaving.IsOn)
+            Me.DialogResult = DialogResult.OK
+            Me.Close()
+        Catch ex As Exception
 
-        ' TO BE IMPLEMENTED
-
-        Return Cities
-    End Function
-#End Region
-
-#Region "Stars"
-    Private Shared Nakshatras As List(Of Nakshatra)
-
-    Public Shared Function GetNakshatras() As List(Of Nakshatra)
-        If DatabasePath = "" OrElse My.Computer.FileSystem.FileExists(DatabasePath = False) Then CreateDB()
-
-        ' TO BE IMPLEMENTED
-
-        Return Nakshatras
-
-    End Function
+        End Try
+    End Sub
 #End Region
 
 End Class
