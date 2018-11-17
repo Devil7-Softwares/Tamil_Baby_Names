@@ -287,7 +287,6 @@ Partial Class frm_Main
         Me.grp_AutoFilter.Size = New System.Drawing.Size(655, 79)
         Me.grp_AutoFilter.TabIndex = 4
         Me.grp_AutoFilter.Text = "First Letter Filter - Automatic (Based on Star Sign)"
-        Me.grp_AutoFilter.Visible = False
         '
         'btn_CalcStarSign
         '

@@ -34,8 +34,7 @@ Namespace Objects
 #End Region
 
 #Region "Subs"
-        Public Shared Function GetAllRashis() As List(Of Rashi)
-            Return New List(Of Rashi)({
+        Private Shared Rashis As New List(Of Rashi)({
                                       New Rashi("Aries", "மேஷம்"),
                                       New Rashi("Taurus", "ரிஷபம்"),
                                       New Rashi("Gemini", "மிதுனம்"),
@@ -49,6 +48,8 @@ Namespace Objects
                                       New Rashi("Aquarius", "கும்பம்"),
                                       New Rashi("Pisces", "மீனம்")
                                       })
+        Public Shared Function GetAllRashis() As List(Of Rashi)
+            Return Rashis
         End Function
 
         Public Overrides Function ToString() As String
