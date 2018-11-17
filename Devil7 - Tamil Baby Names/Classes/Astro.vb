@@ -131,7 +131,7 @@ Public Class Astro
         l += ay
         If (l < 0.0) Then l += 360.0
         Dim Rashi As Objects.Rashi = Objects.Rashi.GetAllRashis()(lon2dmsz(l))
-        Dim Nakshatra As Objects.Nakshatra = DatabaseIO.GetNakshatras()(Floor((l * 60) / 800.0))
+        Dim Nakshatra As Objects.Nakshatra = DatabaseIO.GetNakshatras(True)(Floor((l * 60) / 800.0))
         Return New Objects.RashiNakshatra(Rashi, Nakshatra)
     End Function
 #End Region

@@ -18,28 +18,23 @@
 '     Dineshkumar T                                                        '
 '=========================================================================='
 
-Public Class frm_Main
-
-#Region "Form Events"
-    Private Sub frm_Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        frm_Splash.ProcessCommand(Nothing, "Initializing Database...")
-        DatabaseIO.CreateDB()
-        frm_Splash.ProcessCommand(Nothing, "Reading Nakshatras...")
-        cmb_Nakshatra.Properties.Items.AddRange(DatabaseIO.GetNakshatras(True).ToArray)
-        frm_Splash.ProcessCommand(Nothing, "Reading Cities...")
-        cmb_Rashi.Properties.Items.AddRange(Objects.Rashi.GetAllRashis)
+Public Class frm_Splash
+    Sub New()
+        InitializeComponent()
     End Sub
 
-    Private Sub frm_Main_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
-        DatabaseIO.Clean()
+    Public Overrides Sub ProcessCommand(ByVal cmd As [Enum], ByVal arg As Object)
+        Invoke(Sub() lbl_description.Text = arg.ToString)
     End Sub
 
-    Private Sub btn_CalcStarSign_Click(sender As Object, e As EventArgs) Handles btn_CalcStarSign.Click
-        If frm_CalcAstro.ShowDialog = DialogResult.OK Then
-            cmb_Nakshatra.SelectedItem = frm_CalcAstro.RashiNakshatra.Nakshatra
-            cmb_Rashi.SelectedItem = frm_CalcAstro.RashiNakshatra.Rashi
+    Private Sub Splash_Load(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Load
+        lbl_copyright.Text = My.Application.Info.Copyright
+        If My.Settings.Skin <> "" Then
+            Try
+                Me.Theme.LookAndFeel.SkinName = My.Settings.Skin
+            Catch ex As Exception
+
+            End Try
         End If
     End Sub
-#End Region
-
 End Class

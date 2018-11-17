@@ -26,7 +26,7 @@ Public Class frm_CalcAstro
 
 #Region "Form Events"
     Private Sub frm_CalcAstro_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        txt_BirthCity.Properties.Items.AddRange(DatabaseIO.GetCities.ToArray)
+        txt_BirthCity.Properties.Items.AddRange(DatabaseIO.GetCities(True).ToArray)
     End Sub
 #End Region
 
