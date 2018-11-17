@@ -27,7 +27,7 @@ Namespace Objects
 #End Region
 
 #Region "Constructors"
-        Sub New(ByVal Name_TA As String, ByVal Name_EN As String)
+        Sub New(ByVal Name_EN As String, ByVal Name_TA As String)
             Me.Name_TA = Name_TA
             Me.Name_EN = Name_EN
         End Sub
