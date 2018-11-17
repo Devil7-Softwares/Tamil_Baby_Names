@@ -37,6 +37,10 @@ Namespace Objects
             Me.Longitude = Longitude
             Me.Latitude = Latitude
         End Sub
+
+        Public Overrides Function ToString() As String
+            Return Name
+        End Function
 #End Region
 
     End Class

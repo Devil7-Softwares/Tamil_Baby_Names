@@ -31,6 +31,10 @@ Namespace Objects
             Me.Rashi = Rashi
             Me.Nakshatra = Nakshatra
         End Sub
+
+        Public Overrides Function ToString() As String
+            Return String.Format("{0}, {1}", Rashi.ToString, Nakshatra.ToString)
+        End Function
 #End Region
 
     End Class

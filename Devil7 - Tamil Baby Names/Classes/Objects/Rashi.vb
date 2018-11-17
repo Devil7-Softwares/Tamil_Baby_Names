@@ -50,6 +50,10 @@ Namespace Objects
                                       New Rashi("Pisces", "மீனம்")
                                       })
         End Function
+
+        Public Overrides Function ToString() As String
+            Return Name_TA
+        End Function
 #End Region
 
     End Class

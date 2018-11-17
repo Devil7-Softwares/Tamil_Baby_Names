@@ -41,6 +41,10 @@ Namespace Objects
             Me.Meaning1 = Meaning1
             Me.Meaning2 = Meaning2
         End Sub
+
+        Public Overrides Function ToString() As String
+            Return String.Format("{0}, {1}", Name1, Name2)
+        End Function
 #End Region
 
     End Class

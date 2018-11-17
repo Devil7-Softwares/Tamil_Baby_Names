@@ -39,6 +39,10 @@ Namespace Objects
             Me.Letters_ENG = Letters_ENG
             Me.Meaning = Meaning
         End Sub
+
+        Public Overrides Function ToString() As String
+            Return Name_TAM
+        End Function
 #End Region
 
     End Class
