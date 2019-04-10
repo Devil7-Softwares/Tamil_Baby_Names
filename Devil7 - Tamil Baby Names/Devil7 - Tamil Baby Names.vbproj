@@ -119,6 +119,7 @@
     <Compile Include="Classes\Astro.vb" />
     <Compile Include="Classes\DatabaseIO.vb" />
     <Compile Include="Classes\Objects\AddressInfo.vb" />
+    <Compile Include="Classes\Objects\NamesReportItem.vb" />
     <Compile Include="Classes\Objects\Rashi.vb" />
     <Compile Include="Classes\Objects\RashiNakshatra.vb" />
     <Compile Include="Classes\XtraFormTemp.vb">
