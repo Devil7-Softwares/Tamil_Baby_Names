@@ -137,6 +137,12 @@
     <Compile Include="Dialogs\frm_CalcAstro.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dialogs\frm_InsertTamilLetters.Designer.vb">
+      <DependentUpon>frm_InsertTamilLetters.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\frm_InsertTamilLetters.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Dialogs\frm_ReportViewer.designer.vb">
       <DependentUpon>frm_ReportViewer.vb</DependentUpon>
     </Compile>
@@ -181,6 +187,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\frm_CalcAstro.resx">
       <DependentUpon>frm_CalcAstro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\frm_InsertTamilLetters.resx">
+      <DependentUpon>frm_InsertTamilLetters.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialogs\frm_ReportViewer.resx">
       <DependentUpon>frm_ReportViewer.vb</DependentUpon>
