@@ -15,7 +15,7 @@ Option Explicit On
 Namespace My
     
     <Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(),  _
-     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.8.0.0"),  _
+     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.9.0.0"),  _
      Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Advanced)>  _
     Partial Friend NotInheritable Class MySettings
         Inherits Global.System.Configuration.ApplicationSettingsBase
@@ -63,6 +63,102 @@ Namespace My
             End Get
             Set
                 Me("Skin") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("XXXX")>  _
+        Public Property Name() As String
+            Get
+                Return CType(Me("Name"),String)
+            End Get
+            Set
+                Me("Name") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("1, XYZ Street")>  _
+        Public Property AddressLine1() As String
+            Get
+                Return CType(Me("AddressLine1"),String)
+            End Get
+            Set
+                Me("AddressLine1") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("ABC Nagar")>  _
+        Public Property AddressLine2() As String
+            Get
+                Return CType(Me("AddressLine2"),String)
+            End Get
+            Set
+                Me("AddressLine2") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Coimbatore")>  _
+        Public Property City() As String
+            Get
+                Return CType(Me("City"),String)
+            End Get
+            Set
+                Me("City") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("641001")>  _
+        Public Property PinCode() As String
+            Get
+                Return CType(Me("PinCode"),String)
+            End Get
+            Set
+                Me("PinCode") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("TamilNadu")>  _
+        Public Property State() As String
+            Get
+                Return CType(Me("State"),String)
+            End Get
+            Set
+                Me("State") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("98765 4321")>  _
+        Public Property ContactNo() As String
+            Get
+                Return CType(Me("ContactNo"),String)
+            End Get
+            Set
+                Me("ContactNo") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("someone@somehost.com")>  _
+        Public Property EmailID() As String
+            Get
+                Return CType(Me("EmailID"),String)
+            End Get
+            Set
+                Me("EmailID") = value
             End Set
         End Property
     End Class

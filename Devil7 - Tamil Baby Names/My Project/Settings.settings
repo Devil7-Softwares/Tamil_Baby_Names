@@ -5,5 +5,29 @@
     <Setting Name="Skin" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
+    <Setting Name="Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">XXXX</Value>
+    </Setting>
+    <Setting Name="AddressLine1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1, XYZ Street</Value>
+    </Setting>
+    <Setting Name="AddressLine2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ABC Nagar</Value>
+    </Setting>
+    <Setting Name="City" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Coimbatore</Value>
+    </Setting>
+    <Setting Name="PinCode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">641001</Value>
+    </Setting>
+    <Setting Name="State" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TamilNadu</Value>
+    </Setting>
+    <Setting Name="ContactNo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">98765 4321</Value>
+    </Setting>
+    <Setting Name="EmailID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">someone@somehost.com</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
