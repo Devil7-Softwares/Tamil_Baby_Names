@@ -129,6 +129,12 @@
     <Compile Include="Dialogs\frm_CalcAstro.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Dialogs\frm_ReportViewer.designer.vb">
+      <DependentUpon>frm_ReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\frm_ReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_Main.Designer.vb">
       <DependentUpon>frm_Main.vb</DependentUpon>
     </Compile>
@@ -164,6 +170,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Dialogs\frm_CalcAstro.resx">
       <DependentUpon>frm_CalcAstro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\frm_ReportViewer.resx">
+      <DependentUpon>frm_ReportViewer.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Main.resx">
       <DependentUpon>frm_Main.vb</DependentUpon>
