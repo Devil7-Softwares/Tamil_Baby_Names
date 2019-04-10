@@ -295,6 +295,7 @@ Partial Class frm_Main
         '
         'btn_InsertTamilLetters
         '
+        Me.btn_InsertTamilLetters.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btn_InsertTamilLetters.Location = New System.Drawing.Point(529, 21)
         Me.btn_InsertTamilLetters.Name = "btn_InsertTamilLetters"
         Me.btn_InsertTamilLetters.Size = New System.Drawing.Size(114, 23)
