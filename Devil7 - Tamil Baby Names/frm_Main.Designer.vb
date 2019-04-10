@@ -36,12 +36,17 @@ Partial Class frm_Main
         Me.Menu_FirstLetter = New DevExpress.XtraBars.PopupMenu(Me.components)
         Me.btn_Filter_FirstLetter_Automatic = New DevExpress.XtraBars.BarButtonItem()
         Me.btn_Filter_FirstLetter_Manual = New DevExpress.XtraBars.BarButtonItem()
+        Me.lbl_NoOfItems = New DevExpress.XtraBars.BarStaticItem()
+        Me.txt_NoOfItems = New DevExpress.XtraBars.BarStaticItem()
+        Me.btn_GenerateReport = New DevExpress.XtraBars.BarButtonItem()
         Me.rp_Home = New DevExpress.XtraBars.Ribbon.RibbonPage()
         Me.rpg_Filter = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
+        Me.rpg_Report = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonStatusBar = New DevExpress.XtraBars.Ribbon.RibbonStatusBar()
         Me.gc_Names = New DevExpress.XtraGrid.GridControl()
         Me.gv_Names = New DevExpress.XtraGrid.Views.Grid.GridView()
         Me.grp_ManualFilter = New DevExpress.XtraEditors.GroupControl()
+        Me.btn_InsertTamilLetters = New DevExpress.XtraEditors.SimpleButton()
         Me.txt_BeginsWith = New DevExpress.XtraEditors.TextEdit()
         Me.lbl_BeginsWith = New DevExpress.XtraEditors.LabelControl()
         Me.grp_AutoFilter = New DevExpress.XtraEditors.GroupControl()
@@ -73,9 +78,9 @@ Partial Class frm_Main
         'RibbonControl
         '
         Me.RibbonControl.ExpandCollapseItem.Id = 0
-        Me.RibbonControl.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl.ExpandCollapseItem, Me.btn_Filter_Gender, Me.btn_Filter_Gender_Boy, Me.btn_Filter_Gender_Girl, Me.btn_Filter_Religion, Me.btn_Filter_Religion_Hindu, Me.btn_Filter_Religion_Islam, Me.btn_Filter_Religion_Christianity, Me.btn_ApplyFilter, Me.btn_Filter_FirstLetter, Me.btn_Filter_FirstLetter_Automatic, Me.btn_Filter_FirstLetter_Manual})
+        Me.RibbonControl.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl.ExpandCollapseItem, Me.btn_Filter_Gender, Me.btn_Filter_Gender_Boy, Me.btn_Filter_Gender_Girl, Me.btn_Filter_Religion, Me.btn_Filter_Religion_Hindu, Me.btn_Filter_Religion_Islam, Me.btn_Filter_Religion_Christianity, Me.btn_ApplyFilter, Me.btn_Filter_FirstLetter, Me.btn_Filter_FirstLetter_Automatic, Me.btn_Filter_FirstLetter_Manual, Me.lbl_NoOfItems, Me.txt_NoOfItems, Me.btn_GenerateReport})
         Me.RibbonControl.Location = New System.Drawing.Point(0, 0)
-        Me.RibbonControl.MaxItemId = 18
+        Me.RibbonControl.MaxItemId = 21
         Me.RibbonControl.Name = "RibbonControl"
         Me.RibbonControl.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.rp_Home})
         Me.RibbonControl.ShowCategoryInCaption = False
@@ -208,9 +213,28 @@ Partial Class frm_Main
         Me.btn_Filter_FirstLetter_Manual.ImageOptions.SvgImage = CType(resources.GetObject("btn_Filter_FirstLetter_Manual.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.btn_Filter_FirstLetter_Manual.Name = "btn_Filter_FirstLetter_Manual"
         '
+        'lbl_NoOfItems
+        '
+        Me.lbl_NoOfItems.Caption = "No Of Items :"
+        Me.lbl_NoOfItems.Id = 18
+        Me.lbl_NoOfItems.Name = "lbl_NoOfItems"
+        '
+        'txt_NoOfItems
+        '
+        Me.txt_NoOfItems.Caption = "0"
+        Me.txt_NoOfItems.Id = 19
+        Me.txt_NoOfItems.Name = "txt_NoOfItems"
+        '
+        'btn_GenerateReport
+        '
+        Me.btn_GenerateReport.Caption = "Generate Report"
+        Me.btn_GenerateReport.Id = 20
+        Me.btn_GenerateReport.ImageOptions.SvgImage = CType(resources.GetObject("btn_GenerateReport.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
+        Me.btn_GenerateReport.Name = "btn_GenerateReport"
+        '
         'rp_Home
         '
-        Me.rp_Home.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.rpg_Filter})
+        Me.rp_Home.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.rpg_Filter, Me.rpg_Report})
         Me.rp_Home.Name = "rp_Home"
         Me.rp_Home.Text = "Home"
         '
@@ -224,8 +248,17 @@ Partial Class frm_Main
         Me.rpg_Filter.ShowCaptionButton = False
         Me.rpg_Filter.Text = "Filters"
         '
+        'rpg_Report
+        '
+        Me.rpg_Report.ItemLinks.Add(Me.btn_GenerateReport)
+        Me.rpg_Report.Name = "rpg_Report"
+        Me.rpg_Report.ShowCaptionButton = False
+        Me.rpg_Report.Text = "Report"
+        '
         'RibbonStatusBar
         '
+        Me.RibbonStatusBar.ItemLinks.Add(Me.lbl_NoOfItems)
+        Me.RibbonStatusBar.ItemLinks.Add(Me.txt_NoOfItems)
         Me.RibbonStatusBar.Location = New System.Drawing.Point(0, 418)
         Me.RibbonStatusBar.Name = "RibbonStatusBar"
         Me.RibbonStatusBar.Ribbon = Me.RibbonControl
@@ -249,6 +282,7 @@ Partial Class frm_Main
         '
         'grp_ManualFilter
         '
+        Me.grp_ManualFilter.Controls.Add(Me.btn_InsertTamilLetters)
         Me.grp_ManualFilter.Controls.Add(Me.txt_BeginsWith)
         Me.grp_ManualFilter.Controls.Add(Me.lbl_BeginsWith)
         Me.grp_ManualFilter.Dock = System.Windows.Forms.DockStyle.Top
@@ -259,6 +293,14 @@ Partial Class frm_Main
         Me.grp_ManualFilter.Text = "First Letter Filter - Manual"
         Me.grp_ManualFilter.Visible = False
         '
+        'btn_InsertTamilLetters
+        '
+        Me.btn_InsertTamilLetters.Location = New System.Drawing.Point(529, 21)
+        Me.btn_InsertTamilLetters.Name = "btn_InsertTamilLetters"
+        Me.btn_InsertTamilLetters.Size = New System.Drawing.Size(114, 23)
+        Me.btn_InsertTamilLetters.TabIndex = 1
+        Me.btn_InsertTamilLetters.Text = "Insert Tamil Letters"
+        '
         'txt_BeginsWith
         '
         Me.txt_BeginsWith.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
@@ -266,7 +308,7 @@ Partial Class frm_Main
         Me.txt_BeginsWith.Location = New System.Drawing.Point(97, 23)
         Me.txt_BeginsWith.MenuManager = Me.RibbonControl
         Me.txt_BeginsWith.Name = "txt_BeginsWith"
-        Me.txt_BeginsWith.Size = New System.Drawing.Size(546, 20)
+        Me.txt_BeginsWith.Size = New System.Drawing.Size(426, 20)
         Me.txt_BeginsWith.TabIndex = 0
         '
         'lbl_BeginsWith
@@ -454,4 +496,9 @@ Partial Class frm_Main
     Friend WithEvents Menu_FirstLetter As DevExpress.XtraBars.PopupMenu
     Friend WithEvents btn_Filter_FirstLetter_Automatic As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents btn_Filter_FirstLetter_Manual As DevExpress.XtraBars.BarButtonItem
+    Friend WithEvents lbl_NoOfItems As DevExpress.XtraBars.BarStaticItem
+    Friend WithEvents txt_NoOfItems As DevExpress.XtraBars.BarStaticItem
+    Friend WithEvents btn_InsertTamilLetters As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btn_GenerateReport As DevExpress.XtraBars.BarButtonItem
+    Friend WithEvents rpg_Report As DevExpress.XtraBars.Ribbon.RibbonPageGroup
 End Class

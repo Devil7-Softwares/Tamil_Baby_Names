@@ -120,8 +120,8 @@
   <metadata name="Menu_Genders.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <assembly alias="DevExpress.Data.v18.1" name="DevExpress.Data.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-  <data name="btn_Filter_Gender_Boy.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <assembly alias="DevExpress.Data.v18.2" name="DevExpress.Data.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="btn_Filter_Gender_Boy.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE4LjEsIFZlcnNpb249MTguMS40
         LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
@@ -144,7 +144,7 @@
         PC9zdmc+Cw==
 </value>
   </data>
-  <data name="btn_Filter_Gender_Girl.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_Filter_Gender_Girl.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE4LjEsIFZlcnNpb249MTguMS40
         LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
@@ -170,7 +170,7 @@
         NTdmIiAvPg0KPC9zdmc+Cw==
 </value>
   </data>
-  <data name="btn_Filter_Gender.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_Filter_Gender.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE4LjEsIFZlcnNpb249MTguMS40
         LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
@@ -213,7 +213,7 @@
   <metadata name="Menu_Religions.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>150, 17</value>
   </metadata>
-  <data name="btn_Filter_Religion_Hindu.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_Filter_Religion_Hindu.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE4LjEsIFZlcnNpb249MTguMS40
         LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
@@ -266,7 +266,7 @@
         PC9zdmc+Cw==
 </value>
   </data>
-  <data name="btn_Filter_Religion_Islam.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_Filter_Religion_Islam.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE4LjEsIFZlcnNpb249MTguMS40
         LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
@@ -324,7 +324,7 @@
         MDkiIGNsYXNzPSJzdDciIC8+DQo8L3N2Zz4L
 </value>
   </data>
-  <data name="btn_Filter_Religion_Christianity.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_Filter_Religion_Christianity.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE4LjEsIFZlcnNpb249MTguMS40
         LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
@@ -361,7 +361,7 @@
         bGw9IiNGNzJDMkMiIGNsYXNzPSJzdDciIC8+DQo8L3N2Zz4L
 </value>
   </data>
-  <data name="btn_Filter_Religion.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_Filter_Religion.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE4LjEsIFZlcnNpb249MTguMS40
         LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
@@ -410,7 +410,7 @@
         NnoiIGZpbGw9IiMwMDc3RjAiIGNsYXNzPSJzdDEiIC8+DQo8L3N2Zz4L
 </value>
   </data>
-  <data name="btn_ApplyFilter.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_ApplyFilter.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE4LjEsIFZlcnNpb249MTguMS40
         LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
@@ -429,7 +429,7 @@
   <metadata name="Menu_FirstLetter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>288, 17</value>
   </metadata>
-  <data name="btn_Filter_FirstLetter_Automatic.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_Filter_FirstLetter_Automatic.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE4LjEsIFZlcnNpb249MTguMS40
         LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
@@ -465,7 +465,7 @@
         Pg0KPC9zdmc+Cw==
 </value>
   </data>
-  <data name="btn_Filter_FirstLetter_Manual.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_Filter_FirstLetter_Manual.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE4LjEsIFZlcnNpb249MTguMS40
         LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
@@ -508,7 +508,7 @@
         bGw9IiMyNjIyZTMiIGNsYXNzPSJjbHMtNCIgLz4NCjwvc3ZnPgs=
 </value>
   </data>
-  <data name="btn_Filter_FirstLetter.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_Filter_FirstLetter.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE4LjEsIFZlcnNpb249MTguMS40
         LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
@@ -542,6 +542,44 @@
         NiwyLjI0LDIuMjQsMCwxLDEsNC40OCwwQTIuMjEsMi4yMSwwLDAsMSwyNy43NCwyOS42NVoiIGZpbGw9
         IiNmZTI0MjQiIGNsYXNzPSJjbHMtMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIuMSwgLTIuMDIpIiAv
         Pg0KPC9zdmc+Cw==
+</value>
+  </data>
+  <data name="btn_GenerateReport.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE4LjEsIFZlcnNpb249MTguMS40
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAADoHAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCA1OCA1OCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iQ2FwYV8xIj4NCiAgPHBhdGggZD0iTTYuMDA1LDU4TDYuMDA1LDU4Yy0y
+        Ljc1LDAtNS0yLjI1LTUtNVYzMGgxMHYyM0MxMS4wMDUsNTUuNzUsOC43NTUsNTgsNi4wMDUsNTh6IiBm
+        aWxsPSIjQ0VDOUFFIiAvPg0KICA8cmVjdCB4PSIxMS4wMDUiIHk9IjAiIHdpZHRoPSI0NS45OSIgaGVp
+        Z2h0PSIxMSIgcng9IjAiIHJ5PSIwIiBmaWxsPSIjQ0VDOUFFIiAvPg0KICA8cGF0aCBkPSJNMTEuMDA1
+        LDM1djd2MTFjMCwyLjc1LTIuMjUsNS01LDVoNWg2aDM1YzIuNzU2LDAsNC45OS0yLjIzNCw0Ljk5LTQu
+        OTlWMTNoLTQ1Ljk5VjM1eiIgZmlsbD0iI0VERUFEQSIgLz4NCiAgPHJlY3QgeD0iMTEuMDA1IiB5PSIx
+        MSIgd2lkdGg9IjQ1Ljk5IiBoZWlnaHQ9IjIiIHJ4PSIwIiByeT0iMCIgZmlsbD0iI0Y0RjNFRCIgLz4N
+        CiAgPHJlY3QgeD0iMTcuMDA1IiB5PSIxNiIgd2lkdGg9IjEyIiBoZWlnaHQ9IjEyIiByeD0iMCIgcnk9
+        IjAiIGZpbGw9IiM2MUI4NzIiIC8+DQogIDxwYXRoIGQ9Ik01MS4wMDUsMTdoLTE2Yy0wLjU1MywwLTEt
+        MC40NDctMS0xczAuNDQ3LTEsMS0xaDE2YzAuNTUzLDAsMSwwLjQ0NywxLDFTNTEuNTU4LDE3LDUxLjAw
+        NSwxN3oiIGZpbGw9IiNDRUM5QUUiIC8+DQogIDxwYXRoIGQ9Ik01MS4wMDUsMjNoLTE2Yy0wLjU1Myww
+        LTEtMC40NDctMS0xczAuNDQ3LTEsMS0xaDE2YzAuNTUzLDAsMSwwLjQ0NywxLDFTNTEuNTU4LDIzLDUx
+        LjAwNSwyM3oiIGZpbGw9IiNDRUM5QUUiIC8+DQogIDxwYXRoIGQ9Ik01MS4wMDUsMjloLTE2Yy0wLjU1
+        MywwLTEtMC40NDctMS0xczAuNDQ3LTEsMS0xaDE2YzAuNTUzLDAsMSwwLjQ0NywxLDFTNTEuNTU4LDI5
+        LDUxLjAwNSwyOXoiIGZpbGw9IiNDRUM5QUUiIC8+DQogIDxwYXRoIGQ9Ik01MS4wMDUsMzVoLTMzYy0w
+        LjU1MywwLTEtMC40NDctMS0xczAuNDQ3LTEsMS0xaDMzYzAuNTUzLDAsMSwwLjQ0NywxLDFTNTEuNTU4
+        LDM1LDUxLjAwNSwzNXoiIGZpbGw9IiNDRUM5QUUiIC8+DQogIDxwYXRoIGQ9Ik0zMy4wMDUsNDFoLTE1
+        Yy0wLjU1MywwLTEtMC40NDctMS0xczAuNDQ3LTEsMS0xaDE1YzAuNTUzLDAsMSwwLjQ0NywxLDFTMzMu
+        NTU4LDQxLDMzLjAwNSw0MXoiIGZpbGw9IiNDRUM5QUUiIC8+DQogIDxwYXRoIGQ9Ik0zMy4wMDUsNDdo
+        LTE1Yy0wLjU1MywwLTEtMC40NDctMS0xczAuNDQ3LTEsMS0xaDE1YzAuNTUzLDAsMSwwLjQ0NywxLDFT
+        MzMuNTU4LDQ3LDMzLjAwNSw0N3oiIGZpbGw9IiNDRUM5QUUiIC8+DQogIDxwYXRoIGQ9Ik0zMy4wMDUs
+        NTNoLTE1Yy0wLjU1MywwLTEtMC40NDctMS0xczAuNDQ3LTEsMS0xaDE1YzAuNTUzLDAsMSwwLjQ0Nywx
+        LDFTMzMuNTU4LDUzLDMzLjAwNSw1M3oiIGZpbGw9IiNDRUM5QUUiIC8+DQogIDxyZWN0IHg9IjM5LjAw
+        NSIgeT0iNDAiIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgcng9IjAiIHJ5PSIwIiBmaWxsPSIjRjdCNTYz
+        IiAvPg0KICA8cmVjdCB4PSIyMy4wMDUiIHk9IjQiIHdpZHRoPSIyMiIgaGVpZ2h0PSI0IiByeD0iMCIg
+        cnk9IjAiIGZpbGw9IiM4RTg4NzIiIC8+DQogIDxnIC8+DQogIDxnIC8+DQogIDxnIC8+DQogIDxnIC8+
+        DQogIDxnIC8+DQogIDxnIC8+DQogIDxnIC8+DQogIDxnIC8+DQogIDxnIC8+DQogIDxnIC8+DQogIDxn
+        IC8+DQogIDxnIC8+DQogIDxnIC8+DQogIDxnIC8+DQogIDxnIC8+DQo8L3N2Zz4L
 </value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
