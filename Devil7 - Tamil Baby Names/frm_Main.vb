@@ -131,8 +131,8 @@ Public Class frm_Main
 
 
             Dim ReportItem As New Objects.NamesReportItem(Gender, Religion, Language, Rashi, Nakshatra, NakshatraMeaning, Letters, gc_Names.DataSource, AddressInfo)
-            Dim Report As New NamesReport ' With {.DataMember = "Names"}
-            Report.ObjDataSource.DataSource = ReportItem
+            Dim Report As New NamesReport With {.DataMember = "Names"}
+            Report.DataSourceItem.DataSource = ReportItem
             Dim D As New frm_ReportViewer(Report)
             D.ShowDialog()
         End If

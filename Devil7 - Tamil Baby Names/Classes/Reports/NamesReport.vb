@@ -39,8 +39,8 @@ Public Class NamesReport
     End Sub
 
     Private Sub NamesReport_BeforePrint(sender As Object, e As PrintEventArgs) Handles Me.BeforePrint
-        If ObjDataSource.DataSource IsNot Nothing Then
-            Dim Item As Objects.NamesReportItem = ObjDataSource.DataSource
+        If DataSourceItem.DataSource IsNot Nothing Then
+            Dim Item As Objects.NamesReportItem = DataSourceItem.DataSource
             If Item.NakshatraMeaning.Trim = "" Then
                 Panel_NakshatraMeaning.Visible = False
             End If

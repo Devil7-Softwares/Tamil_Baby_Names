@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Public Class NamesReport
     Inherits DevExpress.XtraReports.UI.XtraReport
 
     'XtraReport overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         If disposing AndAlso components IsNot Nothing Then
             components.Dispose()
@@ -17,27 +17,12 @@ Partial Public Class NamesReport
     'NOTE: The following procedure is required by the Designer
     'It can be modified using the Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim XrSummary1 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(NamesReport))
-        Dim DynamicListLookUpSettings1 As DevExpress.XtraReports.Parameters.DynamicListLookUpSettings = New DevExpress.XtraReports.Parameters.DynamicListLookUpSettings()
-        Dim DynamicListLookUpSettings2 As DevExpress.XtraReports.Parameters.DynamicListLookUpSettings = New DevExpress.XtraReports.Parameters.DynamicListLookUpSettings()
-        Dim DynamicListLookUpSettings3 As DevExpress.XtraReports.Parameters.DynamicListLookUpSettings = New DevExpress.XtraReports.Parameters.DynamicListLookUpSettings()
-        Dim DynamicListLookUpSettings4 As DevExpress.XtraReports.Parameters.DynamicListLookUpSettings = New DevExpress.XtraReports.Parameters.DynamicListLookUpSettings()
-        Dim DynamicListLookUpSettings5 As DevExpress.XtraReports.Parameters.DynamicListLookUpSettings = New DevExpress.XtraReports.Parameters.DynamicListLookUpSettings()
-        Dim DynamicListLookUpSettings6 As DevExpress.XtraReports.Parameters.DynamicListLookUpSettings = New DevExpress.XtraReports.Parameters.DynamicListLookUpSettings()
-        Dim DynamicListLookUpSettings7 As DevExpress.XtraReports.Parameters.DynamicListLookUpSettings = New DevExpress.XtraReports.Parameters.DynamicListLookUpSettings()
-        Dim DynamicListLookUpSettings8 As DevExpress.XtraReports.Parameters.DynamicListLookUpSettings = New DevExpress.XtraReports.Parameters.DynamicListLookUpSettings()
-        Dim DynamicListLookUpSettings9 As DevExpress.XtraReports.Parameters.DynamicListLookUpSettings = New DevExpress.XtraReports.Parameters.DynamicListLookUpSettings()
-        Dim DynamicListLookUpSettings10 As DevExpress.XtraReports.Parameters.DynamicListLookUpSettings = New DevExpress.XtraReports.Parameters.DynamicListLookUpSettings()
-        Dim DynamicListLookUpSettings11 As DevExpress.XtraReports.Parameters.DynamicListLookUpSettings = New DevExpress.XtraReports.Parameters.DynamicListLookUpSettings()
-        Dim DynamicListLookUpSettings12 As DevExpress.XtraReports.Parameters.DynamicListLookUpSettings = New DevExpress.XtraReports.Parameters.DynamicListLookUpSettings()
-        Dim DynamicListLookUpSettings13 As DevExpress.XtraReports.Parameters.DynamicListLookUpSettings = New DevExpress.XtraReports.Parameters.DynamicListLookUpSettings()
-        Dim DynamicListLookUpSettings14 As DevExpress.XtraReports.Parameters.DynamicListLookUpSettings = New DevExpress.XtraReports.Parameters.DynamicListLookUpSettings()
-        Dim DynamicListLookUpSettings15 As DevExpress.XtraReports.Parameters.DynamicListLookUpSettings = New DevExpress.XtraReports.Parameters.DynamicListLookUpSettings()
-        Dim DynamicListLookUpSettings16 As DevExpress.XtraReports.Parameters.DynamicListLookUpSettings = New DevExpress.XtraReports.Parameters.DynamicListLookUpSettings()
+        Me.DataSourceItem = New DevExpress.DataAccess.ObjectBinding.ObjectDataSource(Me.components)
         Me.Detail = New DevExpress.XtraReports.UI.DetailBand()
         Me.XrTable2 = New DevExpress.XtraReports.UI.XRTable()
         Me.XrTableRow2 = New DevExpress.XtraReports.UI.XRTableRow()
@@ -85,29 +70,15 @@ Partial Public Class NamesReport
         Me.XrLabel23 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel22 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrLabel21 = New DevExpress.XtraReports.UI.XRLabel()
-        Me.Gender = New DevExpress.XtraReports.Parameters.Parameter()
-        Me.Religion = New DevExpress.XtraReports.Parameters.Parameter()
-        Me.Count = New DevExpress.XtraReports.Parameters.Parameter()
-        Me.Language = New DevExpress.XtraReports.Parameters.Parameter()
-        Me.Rashi = New DevExpress.XtraReports.Parameters.Parameter()
-        Me.Nakshatra = New DevExpress.XtraReports.Parameters.Parameter()
-        Me.Letters = New DevExpress.XtraReports.Parameters.Parameter()
-        Me.NakshatraMeaning = New DevExpress.XtraReports.Parameters.Parameter()
-        Me.AddressName = New DevExpress.XtraReports.Parameters.Parameter()
-        Me.AddressLine1 = New DevExpress.XtraReports.Parameters.Parameter()
-        Me.AddressLine2 = New DevExpress.XtraReports.Parameters.Parameter()
-        Me.City = New DevExpress.XtraReports.Parameters.Parameter()
-        Me.PinCode = New DevExpress.XtraReports.Parameters.Parameter()
-        Me.State = New DevExpress.XtraReports.Parameters.Parameter()
-        Me.ContactNo = New DevExpress.XtraReports.Parameters.Parameter()
-        Me.EmailID = New DevExpress.XtraReports.Parameters.Parameter()
-        Me.ObjDataSource = New DevExpress.DataAccess.ObjectBinding.ObjectDataSource(Me.components)
-        Me.DataSourceItem = New DevExpress.DataAccess.ObjectBinding.ObjectDataSource(Me.components)
+        CType(Me.DataSourceItem, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.XrTable2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.XrTable1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ObjDataSource, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DataSourceItem, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+        '
+        'DataSourceItem
+        '
+        Me.DataSourceItem.DataSource = GetType(Devil7.Astro.Names.Objects.NamesReportItem)
+        Me.DataSourceItem.Name = "DataSourceItem"
         '
         'Detail
         '
@@ -154,7 +125,7 @@ Partial Public Class NamesReport
         'XrTableCell10
         '
         Me.XrTableCell10.Borders = CType((DevExpress.XtraPrinting.BorderSide.Right Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
-        Me.XrTableCell10.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Name]")})
+        Me.XrTableCell10.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Names].[Name]")})
         Me.XrTableCell10.Multiline = True
         Me.XrTableCell10.Name = "XrTableCell10"
         Me.XrTableCell10.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96.0!)
@@ -167,7 +138,7 @@ Partial Public Class NamesReport
         'XrTableCell11
         '
         Me.XrTableCell11.Borders = CType((DevExpress.XtraPrinting.BorderSide.Right Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
-        Me.XrTableCell11.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Religion]")})
+        Me.XrTableCell11.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Names].[Religion]")})
         Me.XrTableCell11.Multiline = True
         Me.XrTableCell11.Name = "XrTableCell11"
         Me.XrTableCell11.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96.0!)
@@ -178,7 +149,7 @@ Partial Public Class NamesReport
         'XrTableCell12
         '
         Me.XrTableCell12.Borders = CType((DevExpress.XtraPrinting.BorderSide.Right Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
-        Me.XrTableCell12.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Meaning]")})
+        Me.XrTableCell12.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Names].[Meaning]")})
         Me.XrTableCell12.Multiline = True
         Me.XrTableCell12.Name = "XrTableCell12"
         Me.XrTableCell12.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96.0!)
@@ -257,7 +228,7 @@ Partial Public Class NamesReport
         Me.XrLabel15.BorderColor = System.Drawing.Color.SteelBlue
         Me.XrLabel15.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Right) _
             Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
-        Me.XrLabel15.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Parameters].[NakshatraMeaning]")})
+        Me.XrLabel15.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[NakshatraMeaning]")})
         Me.XrLabel15.ForeColor = System.Drawing.Color.Teal
         Me.XrLabel15.LocationFloat = New DevExpress.Utils.PointFloat(11.76236!, 38.0!)
         Me.XrLabel15.Multiline = True
@@ -298,7 +269,7 @@ Partial Public Class NamesReport
         'XrLabel17
         '
         Me.XrLabel17.AnchorHorizontal = CType((DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left Or DevExpress.XtraReports.UI.HorizontalAnchorStyles.Right), DevExpress.XtraReports.UI.HorizontalAnchorStyles)
-        Me.XrLabel17.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Parameters].[Count]")})
+        Me.XrLabel17.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Count]")})
         Me.XrLabel17.ForeColor = System.Drawing.Color.Teal
         Me.XrLabel17.LocationFloat = New DevExpress.Utils.PointFloat(124.9412!, 403.8333!)
         Me.XrLabel17.Multiline = True
@@ -326,7 +297,7 @@ Partial Public Class NamesReport
         'XrLabel13
         '
         Me.XrLabel13.AnchorHorizontal = CType((DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left Or DevExpress.XtraReports.UI.HorizontalAnchorStyles.Right), DevExpress.XtraReports.UI.HorizontalAnchorStyles)
-        Me.XrLabel13.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Parameters].[Letters]")})
+        Me.XrLabel13.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Letters]")})
         Me.XrLabel13.ForeColor = System.Drawing.Color.Teal
         Me.XrLabel13.LocationFloat = New DevExpress.Utils.PointFloat(124.9412!, 360.8333!)
         Me.XrLabel13.Multiline = True
@@ -341,7 +312,7 @@ Partial Public Class NamesReport
         'XrLabel12
         '
         Me.XrLabel12.AnchorHorizontal = CType((DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left Or DevExpress.XtraReports.UI.HorizontalAnchorStyles.Right), DevExpress.XtraReports.UI.HorizontalAnchorStyles)
-        Me.XrLabel12.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Parameters].[Nakshatra]")})
+        Me.XrLabel12.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Nakshatra]")})
         Me.XrLabel12.ForeColor = System.Drawing.Color.Teal
         Me.XrLabel12.LocationFloat = New DevExpress.Utils.PointFloat(124.9412!, 319.8333!)
         Me.XrLabel12.Multiline = True
@@ -356,7 +327,7 @@ Partial Public Class NamesReport
         'XrLabel11
         '
         Me.XrLabel11.AnchorHorizontal = CType((DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left Or DevExpress.XtraReports.UI.HorizontalAnchorStyles.Right), DevExpress.XtraReports.UI.HorizontalAnchorStyles)
-        Me.XrLabel11.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Parameters].[Rashi]")})
+        Me.XrLabel11.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Rashi]")})
         Me.XrLabel11.ForeColor = System.Drawing.Color.Teal
         Me.XrLabel11.LocationFloat = New DevExpress.Utils.PointFloat(124.9412!, 278.8333!)
         Me.XrLabel11.Multiline = True
@@ -371,7 +342,7 @@ Partial Public Class NamesReport
         'XrLabel10
         '
         Me.XrLabel10.AnchorHorizontal = CType((DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left Or DevExpress.XtraReports.UI.HorizontalAnchorStyles.Right), DevExpress.XtraReports.UI.HorizontalAnchorStyles)
-        Me.XrLabel10.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Parameters].[Language]")})
+        Me.XrLabel10.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Language]")})
         Me.XrLabel10.ForeColor = System.Drawing.Color.Teal
         Me.XrLabel10.LocationFloat = New DevExpress.Utils.PointFloat(124.9412!, 237.8333!)
         Me.XrLabel10.Multiline = True
@@ -386,7 +357,7 @@ Partial Public Class NamesReport
         'XrLabel9
         '
         Me.XrLabel9.AnchorHorizontal = CType((DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left Or DevExpress.XtraReports.UI.HorizontalAnchorStyles.Right), DevExpress.XtraReports.UI.HorizontalAnchorStyles)
-        Me.XrLabel9.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Parameters].[Religion]")})
+        Me.XrLabel9.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Religion]")})
         Me.XrLabel9.ForeColor = System.Drawing.Color.Teal
         Me.XrLabel9.LocationFloat = New DevExpress.Utils.PointFloat(124.9412!, 196.8333!)
         Me.XrLabel9.Multiline = True
@@ -401,7 +372,7 @@ Partial Public Class NamesReport
         'XrLabel8
         '
         Me.XrLabel8.AnchorHorizontal = CType((DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left Or DevExpress.XtraReports.UI.HorizontalAnchorStyles.Right), DevExpress.XtraReports.UI.HorizontalAnchorStyles)
-        Me.XrLabel8.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Parameters].[Gender]")})
+        Me.XrLabel8.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Gender]")})
         Me.XrLabel8.ForeColor = System.Drawing.Color.Teal
         Me.XrLabel8.LocationFloat = New DevExpress.Utils.PointFloat(124.9412!, 155.8333!)
         Me.XrLabel8.Multiline = True
@@ -510,7 +481,7 @@ Partial Public Class NamesReport
         '
         'XrPictureBox1
         '
-        Me.XrPictureBox1.Image = CType(resources.GetObject("XrPictureBox1.Image"), System.Drawing.Image)
+        Me.XrPictureBox1.ImageSource = New DevExpress.XtraPrinting.Drawing.ImageSource("img", resources.GetString("XrPictureBox1.ImageSource"))
         Me.XrPictureBox1.LocationFloat = New DevExpress.Utils.PointFloat(10.0!, 10.00001!)
         Me.XrPictureBox1.Name = "XrPictureBox1"
         Me.XrPictureBox1.SizeF = New System.Drawing.SizeF(116.6768!, 116.6768!)
@@ -603,7 +574,7 @@ Partial Public Class NamesReport
         '
         Me.XrLabel29.AnchorHorizontal = CType((DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left Or DevExpress.XtraReports.UI.HorizontalAnchorStyles.Right), DevExpress.XtraReports.UI.HorizontalAnchorStyles)
         Me.XrLabel29.AutoWidth = True
-        Me.XrLabel29.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Parameters].[ContactNo]")})
+        Me.XrLabel29.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[AddressInfo].[ContactNo]")})
         Me.XrLabel29.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.XrLabel29.KeepTogether = True
         Me.XrLabel29.LocationFloat = New DevExpress.Utils.PointFloat(0!, 143.9352!)
@@ -620,7 +591,7 @@ Partial Public Class NamesReport
         '
         Me.XrLabel28.AnchorHorizontal = CType((DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left Or DevExpress.XtraReports.UI.HorizontalAnchorStyles.Right), DevExpress.XtraReports.UI.HorizontalAnchorStyles)
         Me.XrLabel28.AutoWidth = True
-        Me.XrLabel28.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Parameters].[EmailID]")})
+        Me.XrLabel28.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[AddressInfo].[EmailID]")})
         Me.XrLabel28.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.XrLabel28.KeepTogether = True
         Me.XrLabel28.LocationFloat = New DevExpress.Utils.PointFloat(0.0003178914!, 166.9352!)
@@ -637,7 +608,7 @@ Partial Public Class NamesReport
         '
         Me.XrLabel26.AnchorHorizontal = CType((DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left Or DevExpress.XtraReports.UI.HorizontalAnchorStyles.Right), DevExpress.XtraReports.UI.HorizontalAnchorStyles)
         Me.XrLabel26.AutoWidth = True
-        Me.XrLabel26.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Parameters].[City] + '-' + [Parameters].[PinCode]")})
+        Me.XrLabel26.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[AddressInfo].[City] + '-' + [AddressInfo].[PinCode]")})
         Me.XrLabel26.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.XrLabel26.KeepTogether = True
         Me.XrLabel26.LocationFloat = New DevExpress.Utils.PointFloat(0.0001766064!, 120.9352!)
@@ -653,7 +624,7 @@ Partial Public Class NamesReport
         '
         Me.XrLabel25.AnchorHorizontal = CType((DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left Or DevExpress.XtraReports.UI.HorizontalAnchorStyles.Right), DevExpress.XtraReports.UI.HorizontalAnchorStyles)
         Me.XrLabel25.AutoWidth = True
-        Me.XrLabel25.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Parameters].[AddressName]")})
+        Me.XrLabel25.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[AddressInfo].[Name]")})
         Me.XrLabel25.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.XrLabel25.KeepTogether = True
         Me.XrLabel25.LocationFloat = New DevExpress.Utils.PointFloat(0!, 51.9352!)
@@ -669,7 +640,7 @@ Partial Public Class NamesReport
         '
         Me.XrLabel23.AnchorHorizontal = CType((DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left Or DevExpress.XtraReports.UI.HorizontalAnchorStyles.Right), DevExpress.XtraReports.UI.HorizontalAnchorStyles)
         Me.XrLabel23.AutoWidth = True
-        Me.XrLabel23.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Parameters].[AddressLine2]")})
+        Me.XrLabel23.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[AddressInfo].[AddressLine2]")})
         Me.XrLabel23.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.XrLabel23.KeepTogether = True
         Me.XrLabel23.LocationFloat = New DevExpress.Utils.PointFloat(0!, 97.93515!)
@@ -685,7 +656,7 @@ Partial Public Class NamesReport
         '
         Me.XrLabel22.AnchorHorizontal = CType((DevExpress.XtraReports.UI.HorizontalAnchorStyles.Left Or DevExpress.XtraReports.UI.HorizontalAnchorStyles.Right), DevExpress.XtraReports.UI.HorizontalAnchorStyles)
         Me.XrLabel22.AutoWidth = True
-        Me.XrLabel22.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Parameters].[AddressLine1]")})
+        Me.XrLabel22.ExpressionBindings.AddRange(New DevExpress.XtraReports.UI.ExpressionBinding() {New DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[AddressInfo].[AddressLine1]")})
         Me.XrLabel22.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.XrLabel22.KeepTogether = True
         Me.XrLabel22.LocationFloat = New DevExpress.Utils.PointFloat(0!, 74.93521!)
@@ -711,204 +682,26 @@ Partial Public Class NamesReport
         Me.XrLabel21.StylePriority.UseForeColor = False
         Me.XrLabel21.Text = "With Regards,"
         '
-        'Gender
-        '
-        DynamicListLookUpSettings1.DataAdapter = Nothing
-        DynamicListLookUpSettings1.DataMember = Nothing
-        DynamicListLookUpSettings1.DataSource = Me.DataSourceItem
-        DynamicListLookUpSettings1.DisplayMember = "Gender"
-        DynamicListLookUpSettings1.ValueMember = "Gender"
-        Me.Gender.LookUpSettings = DynamicListLookUpSettings1
-        Me.Gender.Name = "Gender"
-        '
-        'Religion
-        '
-        DynamicListLookUpSettings2.DataAdapter = Nothing
-        DynamicListLookUpSettings2.DataMember = Nothing
-        DynamicListLookUpSettings2.DataSource = Me.DataSourceItem
-        DynamicListLookUpSettings2.DisplayMember = "Religion"
-        DynamicListLookUpSettings2.ValueMember = "Religion"
-        Me.Religion.LookUpSettings = DynamicListLookUpSettings2
-        Me.Religion.Name = "Religion"
-        '
-        'Count
-        '
-        DynamicListLookUpSettings3.DataAdapter = Nothing
-        DynamicListLookUpSettings3.DataMember = Nothing
-        DynamicListLookUpSettings3.DataSource = Me.DataSourceItem
-        DynamicListLookUpSettings3.DisplayMember = "Count"
-        DynamicListLookUpSettings3.ValueMember = "Count"
-        Me.Count.LookUpSettings = DynamicListLookUpSettings3
-        Me.Count.Name = "Count"
-        Me.Count.Type = GetType(Integer)
-        Me.Count.ValueInfo = "0"
-        '
-        'Language
-        '
-        DynamicListLookUpSettings4.DataAdapter = Nothing
-        DynamicListLookUpSettings4.DataMember = Nothing
-        DynamicListLookUpSettings4.DataSource = Me.DataSourceItem
-        DynamicListLookUpSettings4.DisplayMember = "Language"
-        DynamicListLookUpSettings4.ValueMember = "Language"
-        Me.Language.LookUpSettings = DynamicListLookUpSettings4
-        Me.Language.Name = "Language"
-        '
-        'Rashi
-        '
-        DynamicListLookUpSettings5.DataAdapter = Nothing
-        DynamicListLookUpSettings5.DataMember = Nothing
-        DynamicListLookUpSettings5.DataSource = Me.DataSourceItem
-        DynamicListLookUpSettings5.DisplayMember = "Rashi"
-        DynamicListLookUpSettings5.ValueMember = "Rashi"
-        Me.Rashi.LookUpSettings = DynamicListLookUpSettings5
-        Me.Rashi.Name = "Rashi"
-        Me.Rashi.Type = GetType(Integer)
-        Me.Rashi.ValueInfo = "0"
-        '
-        'Nakshatra
-        '
-        DynamicListLookUpSettings6.DataAdapter = Nothing
-        DynamicListLookUpSettings6.DataMember = Nothing
-        DynamicListLookUpSettings6.DataSource = Me.DataSourceItem
-        DynamicListLookUpSettings6.DisplayMember = "Nakshatra"
-        DynamicListLookUpSettings6.ValueMember = "Nakshatra"
-        Me.Nakshatra.LookUpSettings = DynamicListLookUpSettings6
-        Me.Nakshatra.Name = "Nakshatra"
-        '
-        'Letters
-        '
-        DynamicListLookUpSettings7.DataAdapter = Nothing
-        DynamicListLookUpSettings7.DataMember = Nothing
-        DynamicListLookUpSettings7.DataSource = Me.DataSourceItem
-        DynamicListLookUpSettings7.DisplayMember = "Letters"
-        DynamicListLookUpSettings7.ValueMember = "Letters"
-        Me.Letters.LookUpSettings = DynamicListLookUpSettings7
-        Me.Letters.Name = "Letters"
-        '
-        'NakshatraMeaning
-        '
-        DynamicListLookUpSettings8.DataAdapter = Nothing
-        DynamicListLookUpSettings8.DataMember = Nothing
-        DynamicListLookUpSettings8.DataSource = Me.DataSourceItem
-        DynamicListLookUpSettings8.DisplayMember = "NakshatraMeaning"
-        DynamicListLookUpSettings8.ValueMember = "NakshatraMeaning"
-        Me.NakshatraMeaning.LookUpSettings = DynamicListLookUpSettings8
-        Me.NakshatraMeaning.Name = "NakshatraMeaning"
-        '
-        'AddressName
-        '
-        DynamicListLookUpSettings9.DataAdapter = Nothing
-        DynamicListLookUpSettings9.DataMember = Nothing
-        DynamicListLookUpSettings9.DataSource = Me.DataSourceItem
-        DynamicListLookUpSettings9.DisplayMember = "AddressInfo.Name"
-        DynamicListLookUpSettings9.ValueMember = "AddressInfo.Name"
-        Me.AddressName.LookUpSettings = DynamicListLookUpSettings9
-        Me.AddressName.Name = "AddressName"
-        '
-        'AddressLine1
-        '
-        DynamicListLookUpSettings10.DataAdapter = Nothing
-        DynamicListLookUpSettings10.DataMember = Nothing
-        DynamicListLookUpSettings10.DataSource = Me.DataSourceItem
-        DynamicListLookUpSettings10.DisplayMember = "AddressInfo.AddressLine1"
-        DynamicListLookUpSettings10.ValueMember = "AddressInfo.AddressLine1"
-        Me.AddressLine1.LookUpSettings = DynamicListLookUpSettings10
-        Me.AddressLine1.Name = "AddressLine1"
-        '
-        'AddressLine2
-        '
-        DynamicListLookUpSettings11.DataAdapter = Nothing
-        DynamicListLookUpSettings11.DataMember = Nothing
-        DynamicListLookUpSettings11.DataSource = Me.DataSourceItem
-        DynamicListLookUpSettings11.DisplayMember = "AddressInfo.AddressLine2"
-        DynamicListLookUpSettings11.ValueMember = "AddressInfo.AddressLine2"
-        Me.AddressLine2.LookUpSettings = DynamicListLookUpSettings11
-        Me.AddressLine2.Name = "AddressLine2"
-        '
-        'City
-        '
-        DynamicListLookUpSettings12.DataAdapter = Nothing
-        DynamicListLookUpSettings12.DataMember = Nothing
-        DynamicListLookUpSettings12.DataSource = Me.DataSourceItem
-        DynamicListLookUpSettings12.DisplayMember = "AddressInfo.City"
-        DynamicListLookUpSettings12.ValueMember = "AddressInfo.City"
-        Me.City.LookUpSettings = DynamicListLookUpSettings12
-        Me.City.Name = "City"
-        '
-        'PinCode
-        '
-        DynamicListLookUpSettings13.DataAdapter = Nothing
-        DynamicListLookUpSettings13.DataMember = Nothing
-        DynamicListLookUpSettings13.DataSource = Me.DataSourceItem
-        DynamicListLookUpSettings13.DisplayMember = "AddressInfo.PinCode"
-        DynamicListLookUpSettings13.ValueMember = "AddressInfo.PinCode"
-        Me.PinCode.LookUpSettings = DynamicListLookUpSettings13
-        Me.PinCode.Name = "PinCode"
-        '
-        'State
-        '
-        DynamicListLookUpSettings14.DataAdapter = Nothing
-        DynamicListLookUpSettings14.DataMember = Nothing
-        DynamicListLookUpSettings14.DataSource = Me.DataSourceItem
-        DynamicListLookUpSettings14.DisplayMember = "AddressInfo.State"
-        DynamicListLookUpSettings14.ValueMember = "AddressInfo.State"
-        Me.State.LookUpSettings = DynamicListLookUpSettings14
-        Me.State.Name = "State"
-        '
-        'ContactNo
-        '
-        DynamicListLookUpSettings15.DataAdapter = Nothing
-        DynamicListLookUpSettings15.DataMember = Nothing
-        DynamicListLookUpSettings15.DataSource = Me.DataSourceItem
-        DynamicListLookUpSettings15.DisplayMember = "AddressInfo.ContactNo"
-        DynamicListLookUpSettings15.ValueMember = "AddressInfo.ContactNo"
-        Me.ContactNo.LookUpSettings = DynamicListLookUpSettings15
-        Me.ContactNo.Name = "ContactNo"
-        '
-        'EmailID
-        '
-        DynamicListLookUpSettings16.DataAdapter = Nothing
-        DynamicListLookUpSettings16.DataMember = Nothing
-        DynamicListLookUpSettings16.DataSource = Me.DataSourceItem
-        DynamicListLookUpSettings16.DisplayMember = "AddressInfo.EmailID"
-        DynamicListLookUpSettings16.ValueMember = "AddressInfo.EmailID"
-        Me.EmailID.LookUpSettings = DynamicListLookUpSettings16
-        Me.EmailID.Name = "EmailID"
-        '
-        'ObjDataSource
-        '
-        Me.ObjDataSource.DataMember = "Names"
-        Me.ObjDataSource.DataSource = GetType(Devil7.Astro.Names.Objects.NamesReportItem)
-        Me.ObjDataSource.Name = "ObjDataSource"
-        '
-        'DataSourceItem
-        '
-        Me.DataSourceItem.DataSource = GetType(Devil7.Astro.Names.Objects.NamesReportItem)
-        Me.DataSourceItem.Name = "DataSourceItem"
-        '
         'NamesReport
         '
         Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() {Me.Detail, Me.TopMargin, Me.BottomMargin, Me.ReportHeader, Me.GroupHeader1, Me.ReportFooter})
-        Me.ComponentStorage.AddRange(New System.ComponentModel.IComponent() {Me.ObjDataSource, Me.DataSourceItem})
+        Me.ComponentStorage.AddRange(New System.ComponentModel.IComponent() {Me.DataSourceItem})
         Me.DataSource = Me.DataSourceItem
         Me.Font = New System.Drawing.Font("Trebuchet MS", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Margins = New System.Drawing.Printing.Margins(51, 50, 41, 100)
         Me.PageHeight = 1169
         Me.PageWidth = 827
         Me.PaperKind = System.Drawing.Printing.PaperKind.A4
-        Me.Parameters.AddRange(New DevExpress.XtraReports.Parameters.Parameter() {Me.Gender, Me.Religion, Me.Count, Me.Language, Me.Rashi, Me.Nakshatra, Me.Letters, Me.NakshatraMeaning, Me.AddressName, Me.AddressLine1, Me.AddressLine2, Me.City, Me.PinCode, Me.State, Me.ContactNo, Me.EmailID})
-        Me.Version = "18.1"
+        Me.Version = "18.2"
+        CType(Me.DataSourceItem, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.XrTable2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.XrTable1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ObjDataSource, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DataSourceItem, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
     End Sub
     Friend WithEvents Detail As DevExpress.XtraReports.UI.DetailBand
     Friend WithEvents TopMargin As DevExpress.XtraReports.UI.TopMarginBand
     Friend WithEvents BottomMargin As DevExpress.XtraReports.UI.BottomMarginBand
-    Friend WithEvents ObjDataSource As DevExpress.DataAccess.ObjectBinding.ObjectDataSource
     Friend WithEvents XrLabel9 As DevExpress.XtraReports.UI.XRLabel
     Friend WithEvents XrLabel8 As DevExpress.XtraReports.UI.XRLabel
     Friend WithEvents XrLabel7 As DevExpress.XtraReports.UI.XRLabel
@@ -954,20 +747,4 @@ Partial Public Class NamesReport
     Friend WithEvents XrLabel26 As DevExpress.XtraReports.UI.XRLabel
     Friend WithEvents Panel_NakshatraMeaning As DevExpress.XtraReports.UI.XRPanel
     Friend WithEvents DataSourceItem As DevExpress.DataAccess.ObjectBinding.ObjectDataSource
-    Friend WithEvents Gender As DevExpress.XtraReports.Parameters.Parameter
-    Friend WithEvents Religion As DevExpress.XtraReports.Parameters.Parameter
-    Friend WithEvents Count As DevExpress.XtraReports.Parameters.Parameter
-    Friend WithEvents Language As DevExpress.XtraReports.Parameters.Parameter
-    Friend WithEvents Rashi As DevExpress.XtraReports.Parameters.Parameter
-    Friend WithEvents Nakshatra As DevExpress.XtraReports.Parameters.Parameter
-    Friend WithEvents Letters As DevExpress.XtraReports.Parameters.Parameter
-    Friend WithEvents NakshatraMeaning As DevExpress.XtraReports.Parameters.Parameter
-    Friend WithEvents AddressName As DevExpress.XtraReports.Parameters.Parameter
-    Friend WithEvents AddressLine1 As DevExpress.XtraReports.Parameters.Parameter
-    Friend WithEvents AddressLine2 As DevExpress.XtraReports.Parameters.Parameter
-    Friend WithEvents City As DevExpress.XtraReports.Parameters.Parameter
-    Friend WithEvents PinCode As DevExpress.XtraReports.Parameters.Parameter
-    Friend WithEvents State As DevExpress.XtraReports.Parameters.Parameter
-    Friend WithEvents ContactNo As DevExpress.XtraReports.Parameters.Parameter
-    Friend WithEvents EmailID As DevExpress.XtraReports.Parameters.Parameter
 End Class
