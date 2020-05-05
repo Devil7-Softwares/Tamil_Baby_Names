@@ -36,6 +36,7 @@ Partial Class frm_Main
         Me.Menu_FirstLetter = New DevExpress.XtraBars.PopupMenu(Me.components)
         Me.btn_Filter_FirstLetter_Automatic = New DevExpress.XtraBars.BarButtonItem()
         Me.btn_Filter_FirstLetter_Manual = New DevExpress.XtraBars.BarButtonItem()
+        Me.btn_Filter_FirstLetter_None = New DevExpress.XtraBars.BarButtonItem()
         Me.lbl_NoOfItems = New DevExpress.XtraBars.BarStaticItem()
         Me.txt_NoOfItems = New DevExpress.XtraBars.BarStaticItem()
         Me.btn_GenerateReport = New DevExpress.XtraBars.BarButtonItem()
@@ -78,9 +79,9 @@ Partial Class frm_Main
         'RibbonControl
         '
         Me.RibbonControl.ExpandCollapseItem.Id = 0
-        Me.RibbonControl.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl.ExpandCollapseItem, Me.btn_Filter_Gender, Me.btn_Filter_Gender_Boy, Me.btn_Filter_Gender_Girl, Me.btn_Filter_Religion, Me.btn_Filter_Religion_Hindu, Me.btn_Filter_Religion_Islam, Me.btn_Filter_Religion_Christianity, Me.btn_ApplyFilter, Me.btn_Filter_FirstLetter, Me.btn_Filter_FirstLetter_Automatic, Me.btn_Filter_FirstLetter_Manual, Me.lbl_NoOfItems, Me.txt_NoOfItems, Me.btn_GenerateReport})
+        Me.RibbonControl.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl.ExpandCollapseItem, Me.RibbonControl.SearchEditItem, Me.btn_Filter_Gender, Me.btn_Filter_Gender_Boy, Me.btn_Filter_Gender_Girl, Me.btn_Filter_Religion, Me.btn_Filter_Religion_Hindu, Me.btn_Filter_Religion_Islam, Me.btn_Filter_Religion_Christianity, Me.btn_ApplyFilter, Me.btn_Filter_FirstLetter, Me.btn_Filter_FirstLetter_Automatic, Me.btn_Filter_FirstLetter_Manual, Me.lbl_NoOfItems, Me.txt_NoOfItems, Me.btn_GenerateReport, Me.btn_Filter_FirstLetter_None})
         Me.RibbonControl.Location = New System.Drawing.Point(0, 0)
-        Me.RibbonControl.MaxItemId = 21
+        Me.RibbonControl.MaxItemId = 22
         Me.RibbonControl.Name = "RibbonControl"
         Me.RibbonControl.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.rp_Home})
         Me.RibbonControl.ShowCategoryInCaption = False
@@ -88,7 +89,7 @@ Partial Class frm_Main
         Me.RibbonControl.ShowExpandCollapseButton = DevExpress.Utils.DefaultBoolean.[False]
         Me.RibbonControl.ShowQatLocationSelector = False
         Me.RibbonControl.ShowToolbarCustomizeItem = False
-        Me.RibbonControl.Size = New System.Drawing.Size(655, 143)
+        Me.RibbonControl.Size = New System.Drawing.Size(655, 158)
         Me.RibbonControl.StatusBar = Me.RibbonStatusBar
         Me.RibbonControl.Toolbar.ShowCustomizeItem = False
         '
@@ -193,6 +194,7 @@ Partial Class frm_Main
         '
         Me.Menu_FirstLetter.ItemLinks.Add(Me.btn_Filter_FirstLetter_Automatic)
         Me.Menu_FirstLetter.ItemLinks.Add(Me.btn_Filter_FirstLetter_Manual)
+        Me.Menu_FirstLetter.ItemLinks.Add(Me.btn_Filter_FirstLetter_None)
         Me.Menu_FirstLetter.Name = "Menu_FirstLetter"
         Me.Menu_FirstLetter.Ribbon = Me.RibbonControl
         '
@@ -212,6 +214,14 @@ Partial Class frm_Main
         Me.btn_Filter_FirstLetter_Manual.Id = 17
         Me.btn_Filter_FirstLetter_Manual.ImageOptions.SvgImage = CType(resources.GetObject("btn_Filter_FirstLetter_Manual.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.btn_Filter_FirstLetter_Manual.Name = "btn_Filter_FirstLetter_Manual"
+        '
+        'btn_Filter_FirstLetter_None
+        '
+        Me.btn_Filter_FirstLetter_None.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.Check
+        Me.btn_Filter_FirstLetter_None.Caption = "None"
+        Me.btn_Filter_FirstLetter_None.Id = 21
+        Me.btn_Filter_FirstLetter_None.ImageOptions.SvgImage = CType(resources.GetObject("btn_Filter_FirstLetter_None.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
+        Me.btn_Filter_FirstLetter_None.Name = "btn_Filter_FirstLetter_None"
         '
         'lbl_NoOfItems
         '
@@ -240,38 +250,38 @@ Partial Class frm_Main
         '
         'rpg_Filter
         '
+        Me.rpg_Filter.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
         Me.rpg_Filter.ItemLinks.Add(Me.btn_Filter_Gender)
         Me.rpg_Filter.ItemLinks.Add(Me.btn_Filter_Religion)
         Me.rpg_Filter.ItemLinks.Add(Me.btn_Filter_FirstLetter)
         Me.rpg_Filter.ItemLinks.Add(Me.btn_ApplyFilter, True)
         Me.rpg_Filter.Name = "rpg_Filter"
-        Me.rpg_Filter.ShowCaptionButton = False
         Me.rpg_Filter.Text = "Filters"
         '
         'rpg_Report
         '
+        Me.rpg_Report.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.[False]
         Me.rpg_Report.ItemLinks.Add(Me.btn_GenerateReport)
         Me.rpg_Report.Name = "rpg_Report"
-        Me.rpg_Report.ShowCaptionButton = False
         Me.rpg_Report.Text = "Report"
         '
         'RibbonStatusBar
         '
         Me.RibbonStatusBar.ItemLinks.Add(Me.lbl_NoOfItems)
         Me.RibbonStatusBar.ItemLinks.Add(Me.txt_NoOfItems)
-        Me.RibbonStatusBar.Location = New System.Drawing.Point(0, 418)
+        Me.RibbonStatusBar.Location = New System.Drawing.Point(0, 425)
         Me.RibbonStatusBar.Name = "RibbonStatusBar"
         Me.RibbonStatusBar.Ribbon = Me.RibbonControl
-        Me.RibbonStatusBar.Size = New System.Drawing.Size(655, 31)
+        Me.RibbonStatusBar.Size = New System.Drawing.Size(655, 24)
         '
         'gc_Names
         '
         Me.gc_Names.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.gc_Names.Location = New System.Drawing.Point(0, 271)
+        Me.gc_Names.Location = New System.Drawing.Point(0, 286)
         Me.gc_Names.MainView = Me.gv_Names
         Me.gc_Names.MenuManager = Me.RibbonControl
         Me.gc_Names.Name = "gc_Names"
-        Me.gc_Names.Size = New System.Drawing.Size(655, 147)
+        Me.gc_Names.Size = New System.Drawing.Size(655, 139)
         Me.gc_Names.TabIndex = 2
         Me.gc_Names.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.gv_Names})
         '
@@ -286,7 +296,7 @@ Partial Class frm_Main
         Me.grp_ManualFilter.Controls.Add(Me.txt_BeginsWith)
         Me.grp_ManualFilter.Controls.Add(Me.lbl_BeginsWith)
         Me.grp_ManualFilter.Dock = System.Windows.Forms.DockStyle.Top
-        Me.grp_ManualFilter.Location = New System.Drawing.Point(0, 143)
+        Me.grp_ManualFilter.Location = New System.Drawing.Point(0, 158)
         Me.grp_ManualFilter.Name = "grp_ManualFilter"
         Me.grp_ManualFilter.Size = New System.Drawing.Size(655, 49)
         Me.grp_ManualFilter.TabIndex = 3
@@ -325,7 +335,7 @@ Partial Class frm_Main
         Me.grp_AutoFilter.Controls.Add(Me.btn_CalcStarSign)
         Me.grp_AutoFilter.Controls.Add(Me.layout_StarSign)
         Me.grp_AutoFilter.Dock = System.Windows.Forms.DockStyle.Top
-        Me.grp_AutoFilter.Location = New System.Drawing.Point(0, 192)
+        Me.grp_AutoFilter.Location = New System.Drawing.Point(0, 207)
         Me.grp_AutoFilter.Name = "grp_AutoFilter"
         Me.grp_AutoFilter.Size = New System.Drawing.Size(655, 79)
         Me.grp_AutoFilter.TabIndex = 4
@@ -438,7 +448,7 @@ Partial Class frm_Main
         Me.Controls.Add(Me.grp_ManualFilter)
         Me.Controls.Add(Me.RibbonStatusBar)
         Me.Controls.Add(Me.RibbonControl)
-        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.IconOptions.Icon = CType(resources.GetObject("frm_Main.IconOptions.Icon"), System.Drawing.Icon)
         Me.Name = "frm_Main"
         Me.Ribbon = Me.RibbonControl
         Me.StatusBar = Me.RibbonStatusBar
@@ -502,4 +512,5 @@ Partial Class frm_Main
     Friend WithEvents btn_InsertTamilLetters As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents btn_GenerateReport As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents rpg_Report As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+    Friend WithEvents btn_Filter_FirstLetter_None As DevExpress.XtraBars.BarButtonItem
 End Class

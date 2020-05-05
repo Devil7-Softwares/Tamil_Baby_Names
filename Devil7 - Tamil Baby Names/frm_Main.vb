@@ -54,6 +54,7 @@ Public Class frm_Main
     Private Sub btn_Filter_FirstLetter_Automatic_ItemClick(sender As Object, e As ItemClickEventArgs) Handles btn_Filter_FirstLetter_Automatic.ItemClick
         If btn_Filter_FirstLetter_Automatic.Down Then
             btn_Filter_FirstLetter_Manual.Down = False
+            btn_Filter_FirstLetter_None.Down = False
             grp_AutoFilter.Visible = True
             grp_ManualFilter.Visible = False
         Else
@@ -64,10 +65,21 @@ Public Class frm_Main
     Private Sub btn_Filter_FirstLetter_Manual_ItemClick(sender As Object, e As ItemClickEventArgs) Handles btn_Filter_FirstLetter_Manual.ItemClick
         If btn_Filter_FirstLetter_Manual.Down Then
             btn_Filter_FirstLetter_Automatic.Down = False
+            btn_Filter_FirstLetter_None.Down = False
             grp_AutoFilter.Visible = False
             grp_ManualFilter.Visible = True
         Else
             btn_Filter_FirstLetter_Manual.Down = True
+        End If
+    End Sub
+    Private Sub btn_Filter_FirstLetter_None_ItemClick(sender As Object, e As ItemClickEventArgs) Handles btn_Filter_FirstLetter_None.ItemClick
+        If btn_Filter_FirstLetter_Automatic.Down Then
+            btn_Filter_FirstLetter_Manual.Down = False
+            btn_Filter_FirstLetter_Automatic.Down = False
+            grp_AutoFilter.Visible = False
+            grp_ManualFilter.Visible = False
+        Else
+            btn_Filter_FirstLetter_None.Down = True
         End If
     End Sub
 
@@ -174,6 +186,8 @@ Public Class frm_Main
             If txt_BeginsWith.Text.Trim <> "" Then
                 FirstLetters.AddRange(txt_BeginsWith.Text.Split(","))
             End If
+        Else
+            Return True
         End If
         Dim FirstLetterMatched As Boolean = False
         If FirstLetters.Contains(Item.FirstLetter.Trim) Then
